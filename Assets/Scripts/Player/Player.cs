@@ -9,7 +9,6 @@ public class Player : MonoBehaviour
     public PlayerMovement playerMovement;
 
     public PlayerBaseState currentState;
-    public PlayerWaitState PlayerWaitState = new PlayerWaitState();
     public PlayerMoveState PlayerMoveState = new PlayerMoveState();
 
     private void Awake()
